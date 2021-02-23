@@ -1,0 +1,2 @@
+#sshfs Pfaria@mercurio:/var/tiss/ ssh_data/ -o uid=1000,gid=1000
+sshfs pedro@mercurio:/var/tiss/ ssh_data/ -o uid=1000,gid=1000

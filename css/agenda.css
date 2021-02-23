@@ -1,0 +1,284 @@
+    body
+    {
+      background:url("GuiaConsulta1200x800.png") left top no-repeat ;
+      background left top no-repeat;
+      background-position: 20px 120px;     
+   
+    }
+    
+    #node1
+    {
+      float: left;            
+      top: 228px;
+     left: 35px;
+      position: absolute;      
+    }
+
+    #node2
+    {
+      float: left;            
+      top: 228px;
+     left: 205px;
+      position: absolute;      
+    }
+
+    #node3
+    {
+      float: left;            
+      top: 314px;
+      left: 35px;
+      position: absolute;        
+    }
+
+    #node4
+    {
+      float: left;            
+      top: 314px;
+      left: 580px;
+      position: absolute;      
+    }
+
+    #node5
+    {
+      float: left;            
+      top: 314px;
+      left: 630px;
+      position: absolute;      
+    }
+
+    #node6
+    {
+      float: left;            
+      top: 314px;
+      left: 680px;
+      position: absolute;      
+    }
+
+    #node7
+    {
+      float: left;            
+      top: 314px;
+      left: 920px;
+      position: absolute;      
+    }
+
+    #node8
+    {
+      float: left;            
+      top: 375px;
+      left: 35px;
+      position: absolute;      
+    }
+
+    #node9
+    {
+      float: left;            
+      top: 375px;
+      left: 750px;
+      position: absolute;      
+    }
+
+    #node10
+    {
+      float: left;          
+      top: 465px;
+     left: 35px;
+      position: absolute;      
+    }
+
+    #node11
+    {
+      float: left;            
+      top: 465px;
+      left: 430px;
+      position: absolute;      
+    }
+
+    #node12
+    {
+      float: left;            
+      top: 465px;
+     left: 995px;
+      position: absolute;      
+    }
+
+    #node13
+    {
+      float: left;           
+      top: 525px;
+      left: 35px;
+      position: absolute;      
+    }
+
+    #node14
+    {
+      float: left; 
+      top: 535px;
+     left: 477px;
+      position: absolute;
+      
+    }
+    #node15
+    {
+      float: left;   
+      top: 525px;
+      left: 582px;
+      position: absolute;
+      
+    }
+    #node16
+    {
+      float: left;           
+      top: 525px;
+      left: 965px;
+      position: absolute;
+      
+    }
+    #node17
+    {
+      float: left;          
+      top: 525px;
+     left: 1039px;
+      position: absolute;
+      
+    }
+    #node18
+    {           
+      float: left; 
+      top: 630px;
+     left: 175px;
+      position: absolute;
+      
+    }
+
+    #node19
+    {
+      float: left;            
+      top: 690px;
+      left: 35px;
+      position: absolute;      
+    }
+
+    #node20
+    {
+      float: left;            
+      top: 690px;
+      left: 85px;
+      position: absolute;
+      
+    }
+    #node21
+    {
+      float: left;      
+      top: 690px;
+      left: 135px;
+      position: absolute;
+      
+    }
+    
+    #node22
+    {
+      float: left;          
+      top: 690px;
+      left: 340px;
+      position: absolute;
+      
+    }
+    
+    #node23
+    {
+      float: left;            
+      top: 690px;
+      left: 575px;
+      position: absolute;
+      
+    }
+    #node24
+    {
+      float: left;            
+      top: 690px;
+      left:673px;
+      position: absolute;
+      
+    }
+    #node25
+    {
+      float: left;            
+      top: 132px;
+      left: 870px;
+      position: absolute;
+      
+    }
+    #node26
+    {
+      float: left;            
+      top: 690px;
+     left: 958px;
+      position: absolute;
+      
+      
+    }
+    #node27
+    { 
+      top: 770px;
+     left: 31px;
+      position: absolute;     
+    }
+    #node28
+    {
+      float: left;            
+      top: 820px;
+      left: 15px;
+      position: absolute;
+      
+    }
+    #node29
+    {
+      float: left; 
+      top: 820px;
+      left: 625px;
+      position: absolute;
+      
+    }
+
+    #node30
+    { 
+      top: 1000px;
+     left: 490px;
+      position: absolute;     
+    }
+
+    #node31
+    {
+      float: left;            
+      top: 127px;
+      left:150px;
+      position: absolute;
+      
+    }
+
+    #aviso
+    { 
+      top: 1030px;      
+      left: 480px;
+      position: absolute;     
+      width:300px;
+    }
+
+    #mydiv 
+    {
+      height: 400px;
+      position: relative;
+      background-color: gray; /* for demonstration */
+    }
+
+    .ajax-loader 
+    {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; /* presto! */
+      z-index: 10000;
+    }

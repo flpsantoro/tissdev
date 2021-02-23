@@ -1,0 +1,355 @@
+ERRO: Não foi possível validar o arquivo XML.. (Code: 5002) (OBS: Error 1839: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': [facet 'pattern'] The value '34598227758' is not accepted by the pattern '[0-9]{14}'.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': '34598227758' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_CNPJ'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}siglaConselho': [facet 'enumeration'] The value '' is not an element of the set {'CRAS', 'COREN', 'CRF', 'CREFITO', 'CRM', 'CRV', 'CRN', 'CRO', 'CRP', 'OUT', 'CRFA'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}siglaConselho': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_conselhoProfissional'.
+
+Error 1830: Element '{http://www.ans.gov.br/padroes/tiss/schemas}ufConselho': [facet 'length'] The value has a length of '0'; this differs from the allowed length of '2'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}ufConselho': [facet 'enumeration'] The value '' is not an element of the set {'RS', 'SC', 'PR', 'SP', 'MG', 'RJ', 'ES', 'MS', 'MT', 'GO', 'TO', 'PA', 'AM', 'RO', 'RR', 'AC', 'DF', 'BA', 'SE', 'CE', 'PI', 'PB', 'RN', 'AL', 'MA', 'PE', 'AP'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}ufConselho': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_UF'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1839: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': [facet 'pattern'] The value '01283132770' is not accepted by the pattern '[0-9]{14}'.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': '01283132770' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_CNPJ'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1839: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': [facet 'pattern'] The value '01283132770' is not accepted by the pattern '[0-9]{14}'.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}CNPJ': '01283132770' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_CNPJ'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+Error 1840: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': [facet 'enumeration'] The value '' is not an element of the set {'01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '94', '95', '96', '97', '98', '99', '00'}.
+
+Error 1824: Element '{http://www.ans.gov.br/padroes/tiss/schemas}tipoTabela': '' is not a valid value of the atomic type '{http://www.ans.gov.br/padroes/tiss/schemas}st_tabela'.
+
+)

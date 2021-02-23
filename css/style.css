@@ -1,0 +1,251 @@
+body {
+	margin: auto;
+	text-align: center;
+	font-family: Verdana;	
+	height: 100%; 
+}
+
+form {
+	margin: 0;
+	font-size: 12px;
+}
+
+#login {
+	width: 300px;
+	margin: auto;
+	font-size: 12px;
+}
+
+#topo span.logout {
+	position: relative;
+	top: 0px;
+	float: right;
+	font-size: 10px;
+}
+
+div#tabs ul {
+	font: 62.5% "Trebuchet MS", sans-serif;
+}
+
+a {
+	font-size: 13px;
+	color: #000;
+}
+
+img {
+	border: 0;
+}
+
+#layout h1 {
+	font-size: 1.4em;
+	color: #AAA;
+	margin: 0;
+}
+
+h1 span.titulo {
+	position: absolute;
+	margin-top: 20px;
+}
+
+#topo {
+	padding: 5px 5px 5px 10px;
+	text-align: left;
+	background: #FFF;
+	border-bottom: 4px solid #CCC;
+}
+
+input {
+	font-size: 10px;
+	border: 1px solid #CCC;
+}
+
+#barra {
+	text-align: right;
+	padding-top: 10px;
+}
+
+#rodape {
+	clear: both;
+	font-size: 9px;
+	color: #888;
+	border-top: 1px solid #CCC;
+	margin: 10px 5px 0 5px;
+	padding: 4px;
+}
+
+#resultado_elegibilidade {
+	margin: auto;
+	width: 650px;
+	padding: 6px;
+}
+
+.elegibilidadeErro {
+	background-color: #FFBDB7;
+}
+
+#autorizacoes {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+#situacao {
+	margin: auto;
+	text-align: center;
+	width: 60%;
+}
+
+.div_resultado {
+	margin: auto;
+	width: 500px;
+	padding: 6px;
+}
+
+#solicitacoes dl {
+	margin-bottom: 2px;
+}
+
+dl.dados {
+	margin: 0;
+	clear: both;
+}
+
+dl.dados dt {
+	background: #6CAD46;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 5px;
+	width: 100px;
+	clear: left;
+}
+
+dl.dados dd {
+	margin: 2px 0;
+	padding: 5px 0;
+	text-align: left;
+	background:#cc0;
+}
+
+.fieldError {
+	background-color: #FFCDD3;
+}
+
+#menu {
+	background: #DDD;
+	margin-top: 1px;
+	padding: 4px;
+	font: 62.5% "Trebuchet MS", sans-serif;
+	text-align: left;
+}
+
+#menu ul {
+	display: inline;
+	margin: 0px;
+	padding: 0;
+}
+
+#menu ul li {
+	display: inline;
+	margin-left: 0;
+	margin-right: 20px;
+	padding: 4px;
+}
+
+#menu ul li:hover {
+	background: #BBB;
+}
+
+#erro {
+	border: 1px solid #CCC;
+	margin: auto;
+	font-size: 12px;
+	background: #FDA3A3;
+	padding: 10px;
+}
+
+#sucesso {
+	border: 1px solid #CCC;
+	margin: auto;
+	font-size: 12px;
+	background: #C3F2CC;
+	padding: 10px;
+}
+
+#elegibilidade {
+	margin: auto;
+	width: 30%;
+	font-size: 12px;
+}
+
+#elegibilidade dt {
+	width: 150px;
+}
+
+#conteudo {
+	font-size: 12px;
+}
+
+.form1 {
+	border: 1px solid #CCC;
+	background: #EEE;
+	width: 40%;
+	margin: auto;
+	padding: 20px;
+}
+
+.resultado {
+	margin: 10px auto 10px auto;
+	width: 30%;
+}
+
+.table1 {
+	border: 1px solid #CCC;
+	font-size: 12px;
+	width: 50%;
+	margin: auto;
+}
+
+.table1 th {
+	background: #DDD;
+}
+
+.table1 td {
+	border: 1px solid #CCC;
+}
+
+.status_erro {
+	font-weight: bold;
+	color: #F00;
+}
+
+.status_aguardando {
+	font-weight: bold;
+	color: #5DA94D;
+}
+
+.status_analise {
+	font-weight: bold;
+	color: #4D60A9;
+}
+
+.status_excluido {
+	font-weight: bold;
+	color: #6B0C0C;
+}
+
+.status_finalizado {
+	font-weight: bold;
+	color: #6F9870;
+}
+
+.upload_obs {
+	font-size: 11px;
+	color: #444;
+}
+
+.calendario {
+	text-align: center;
+	width: 30%;
+}

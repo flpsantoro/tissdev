@@ -1,0 +1,66 @@
+body {
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+#protocolo {
+	margin: auto;	
+	font-family: Verdana;
+}
+
+#protocolo h3 {
+	text-align: center;
+	margin: 15 0 10 0;
+	border: 1px solid #000;
+	padding: 16px;
+}
+
+#protocolo table {
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#protocolo td {
+	border: 1px solid #000;
+	font-size: 13px;
+	padding: 4px;
+}
+
+#protocolo th {
+	background: #ccc;
+	text-align: left;
+	padding: 4px;
+	font-size: 14px;
+}
+
+#protocolo .via {
+	margin: 0;
+	font-size: 11px;
+	text-align: right;
+}
+
+#datahora {
+	float: right;
+	margin-left: 44%;
+	position: absolute;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+}
+
+p.datahora {
+	font-size: 10px;
+	text-align: right;
+	margin: 3px;
+}
+
+p.imprimir {
+	font-size: 13px;
+}
+
+hr {
+	border: 1px dashed #000;
+}

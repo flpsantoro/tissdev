@@ -1,0 +1,1 @@
+lynx -source http://tiss.fioprev.org.br/nohup.txt | grep -e "\(Gravando:\|Enviando\) \/var\/tiss\/" | uniq
