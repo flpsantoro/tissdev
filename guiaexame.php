@@ -33,7 +33,7 @@ $seqImportacao = null;*/
             <br>
             <label for="7_nr_guia_operadora">7 - Número da guia atribuído pela operadora</label>
             <input type="text" size="20" maxlength="20" name="7_nr_guia_operadora">
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados do Beneficiário</legend>
             <label for="8_nr_carteira">8 - Número da carteira</label>
@@ -50,7 +50,7 @@ $seqImportacao = null;*/
             <br>
             <label for="12_atend_rn">12 - Atendimento a RN</label>
             <input type="text" size="1" maxlength="1" name="12_atend_rn">
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados do Solicitante</legend>
             <label for="13_cd_opr">13 - Código na operadora</label>
@@ -76,7 +76,7 @@ $seqImportacao = null;*/
             <br>
             <label for="20_assinatura_sol">20 - Assinatura do Solicitante</label>
             <span>________________________</span>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados da Solicitação / Procedimentos ou Itens Assistenciais Solicitados</legend>
             <label for="21_carater_atend">21 - Caráter do Atendimento</label>
@@ -129,7 +129,7 @@ $seqImportacao = null;*/
                 <li><input type="number" size="3" maxlength="3" name="28_qtde_autorizada_4"></li>
                 <li><input type="number" size="3" maxlength="3" name="28_qtde_autorizada_5"></li>
             </ol>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados do Contratado Executante</legend>
             <label for="29_cd_opr">29 - Código na operadora</label>
@@ -140,7 +140,7 @@ $seqImportacao = null;*/
             <br>
             <label for="31_cd_cnes">31 - Código CNES</label>
             <input type="text" size="7" maxlength="7" name="31_cd_cnes">
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados do Atendimento</legend>
             <label for="32_tp_atendimento">32 - Tipo de Atendimento</label>
@@ -154,7 +154,7 @@ $seqImportacao = null;*/
             <br>
             <label for="35_motivo_encerramento_atend">35 - Motivo de Encerramento do Atendimento</label>
             <input type="text" size="2" maxlength="2" name="35_motivo_encerramento_atend">
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Dados da Execução / Procedimentos e Exames Realizados</legend>
             <label for="36_data">36 - Data</label>
@@ -254,7 +254,7 @@ $seqImportacao = null;*/
                 <li><input type="number" size="9" min=0 max="999999.99" step=0.01 name="47_valor_total_4"></li>
                 <li><input type="number" size="9" min=0 max="999999.99" step=0.01  name="47_valor_total_5"></li>
             </ol>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <legend>Identificação do(s) Profissional(is) Executante(s)</legend>
             <label for="48_seq_ref">48 - Seq. Ref</label>
@@ -313,7 +313,7 @@ $seqImportacao = null;*/
                 <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
                 <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
             </ul>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <label for="1_registro_ans">56 - Data de realização de procedimentos em série</label>
             <label for="1_registro_ans">57 - Assinatura do beneficiário ou responsável na realização de procedimentos em
@@ -330,12 +330,12 @@ $seqImportacao = null;*/
                 <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
                 <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
             </ol>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <label for="1_registro_ans">58 - Observação/Justificativa</label><br>
             <textareamaxlength
             ="" 1_registro_ans" rows="10" cols="100" maxlength="500" form="guiaexame"></textarea>
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <label for="1_registro_ans">59 - Total de Procedimentos</label>
             <input type="text" size="6" maxlength="" name="1_registro_ans">
@@ -357,14 +357,14 @@ $seqImportacao = null;*/
             <br>
             <label for="1_registro_ans">65 - Total Geral</label>
             <input type="text" size="6" maxlength="" name="1_registro_ans">
-        </fieldset>
+         </fieldset><br>
         <fieldset>
             <p>
                 <span id="1_registro_ans">___________________<br>66 - Assinatura do responsável pela Autorização<br></span>
                 <span id="1_registro_ans">___________________<br>67 - Assinatura do Beneficiário ou Responsável<br></span>
                 <span id="1_registro_ans">___________________<br>68 - Assinatura do contratado<br></span>
             </p>
-        </fieldset>
+         </fieldset><br>
 
     </form>
 </div>
