@@ -56,7 +56,7 @@ session_start();
                 case 'guiaconsulta':
                     require_once 'guiaconsulta.php';
                     break;
-                case 'guiaguiaexame':
+                case 'guiaexame':
                     require_once 'guiaexame.php';
                     break;
                 case 'guiaconsulta_fabio':
