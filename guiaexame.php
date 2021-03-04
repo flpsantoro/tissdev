@@ -10,7 +10,7 @@ $nrGuiaPrestador = null;
 $seqImportacao = null;*/
 ?>
 <div>
-    <form id="guiaexame">
+    <form id="guiaexame" method="post">
         <fieldset>
             <legend><h3>GUIA DE SERVIÇO PROFISSIONAL / SERVIÇO AUXILIAR DE DIAGNÓSTICO E TERAPIA - SP/SADT</h3></legend>
             <label for="2_nr_guia_prestador">2 - Nº da guia no prestador</label>
@@ -273,52 +273,52 @@ $seqImportacao = null;*/
             </ul>
             <label for="49_grau_part">49 - Grau Part</label>
             <ul>
-                <li><input type="text" size="2" maxlength="" name="49_grau_part_1"></li>
-                <li><input type="text" size="2" maxlength="" name="49_grau_part_2"></li>
-                <li><input type="text" size="2" maxlength="" name="49_grau_part_3"></li>
-                <li><input type="text" size="2" maxlength="" name="49_grau_part_4"></li>
+                <li><input type="text" size="2" maxlength="2" name="49_grau_part_1"></li>
+                <li><input type="text" size="2" maxlength="2" name="49_grau_part_2"></li>
+                <li><input type="text" size="2" maxlength="2" name="49_grau_part_3"></li>
+                <li><input type="text" size="2" maxlength="2" name="49_grau_part_4"></li>
             </ul>
             <label for="50_cd_opr_cpf">50 - Código na Operadora / CPF</label>
             <ul>
-                <li><input type="text" size="14" maxlength="" name="50_cd_opr_cpf_1"></li>
-                <li><input type="text" size="14" maxlength="" name="50_cd_opr_cpf_2"></li>
-                <li><input type="text" size="14" maxlength="" name="50_cd_opr_cpf_3"></li>
-                <li><input type="text" size="14" maxlength="" name="50_cd_opr_cpf_3"></li>
+                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_1"></li>
+                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_2"></li>
+                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_3"></li>
+                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_3"></li>
             </ul>
             <label for="51_nm_prof">51 - Nome do profissional</label>
             <ul>
-                <li><input type="text" size="70" maxlength="" name="51_nm_prof_1"></li>
-                <li><input type="text" size="70" maxlength="" name="51_nm_prof_2"></li>
-                <li><input type="text" size="70" maxlength="" name="51_nm_prof_3"></li>
-                <li><input type="text" size="70" maxlength="" name="51_nm_prof_4"></li>
+                <li><input type="text" size="70" maxlength="70" name="51_nm_prof_1"></li>
+                <li><input type="text" size="70" maxlength="70" name="51_nm_prof_2"></li>
+                <li><input type="text" size="70" maxlength="70" name="51_nm_prof_3"></li>
+                <li><input type="text" size="70" maxlength="70" name="51_nm_prof_4"></li>
             </ul>
             <label for="52_cons_prof">52 - Conselho Profissional</label>
             <ul>
-                <li><input type="text" size="2" maxlength="" name="52_cons_prof_1"></li>
-                <li><input type="text" size="2" maxlength="" name="52_cons_prof_2"></li>
-                <li><input type="text" size="2" maxlength="" name="52_cons_prof_3"></li>
-                <li><input type="text" size="2 maxlength="" name="52_cons_prof_4"></li>
+                <li><input type="text" size="2" maxlength="2" name="52_cons_prof_1"></li>
+                <li><input type="text" size="2" maxlength="2" name="52_cons_prof_2"></li>
+                <li><input type="text" size="2" maxlength="2" name="52_cons_prof_3"></li>
+                <li><input type="text" size="2" maxlength="2" name="52_cons_prof_4"></li>
             </ul>
             <label for="53_nr_conselho">53 - Número no conselho</label>
             <ul>
-                <li><input type="text" size="2" maxlength="" name="53_nr_conselho_1"></li>
-                <li><input type="text" size="2" maxlength="" name="53_nr_conselho_2"></li>
-                <li><input type="text" size="2" maxlength="" name="53_nr_conselho_3"></li>
-                <li><input type="text" size="2" maxlength="" name="53_nr_conselho_4"></li>
+                <li><input type="text" size="2" maxlength="2" name="53_nr_conselho_1"></li>
+                <li><input type="text" size="2" maxlength="2" name="53_nr_conselho_2"></li>
+                <li><input type="text" size="2" maxlength="2" name="53_nr_conselho_3"></li>
+                <li><input type="text" size="2" maxlength="2" name="53_nr_conselho_4"></li>
             </ul>
             <label for="54_uf">54 - UF</label>
             <ul>
-                <li><input type="text" size="3" maxlength="" name="54_uf_1"></li>
-                <li><input type="text" size="3" maxlength="" name="54_uf_2"></li>
-                <li><input type="text" size="3" maxlength="" name="54_uf_3"></li>
-                <li><input type="text" size="3" maxlength="" name="54_uf_4"></li>
+                <li><input type="text" size="2" maxlength="2" name="54_uf_1"></li>
+                <li><input type="text" size="2" maxlength="2" name="54_uf_2"></li>
+                <li><input type="text" size="2" maxlength="2" name="54_uf_3"></li>
+                <li><input type="text" size="2" maxlength="2" name="54_uf_4"></li>
             </ul>
-            <label for="1_registro_ans">55 - Código CBO</label>
+            <label for="55_cd_cbo">55 - Código CBO</label>
             <ul>
-                <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
-                <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
-                <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
-                <li><input type="text" size="3" maxlength="" name="1_registro_ans"></li>
+                <li><input type="text" size="3" maxlength="" name="55_cd_cbo_1"></li>
+                <li><input type="text" size="3" maxlength="" name="55_cd_cbo_2"></li>
+                <li><input type="text" size="3" maxlength="" name="55_cd_cbo_3"></li>
+                <li><input type="text" size="3" maxlength="" name="55_cd_cbo_4"></li>
             </ul>
         </fieldset>
         <br>
@@ -327,45 +327,45 @@ $seqImportacao = null;*/
             <label for="1_registro_ans">57 - Assinatura do beneficiário ou responsável na realização de procedimentos em
                 série</label>
             <ol>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
-                <li><input type="text" size="8" maxlength="" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
+                <li><input type="date" size="8" maxlength="8" name="1_registro_ans"><span> _______________</span></li>
             </ol>
         </fieldset>
         <br>
         <fieldset>
-            <label for="1_registro_ans">58 - Observação/Justificativa</label><br>
-            <textarea maxlength                                                                                                                                                 ="1_registro_ans" rows="10" cols="100" maxlength="500" form="guiaexame"></textarea>
+            <label for="58_obs_just">58 - Observação/Justificativa</label><br>
+            <textarea name="58_obs_just" rows="10" cols="100" maxlength="500" form="guiaexame"></textarea>
         </fieldset>
         <br>
         <fieldset>
-            <label for="1_registro_ans">59 - Total de Procedimentos</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="59_total_proc">59 - Total de Procedimentos</label>
+            <input type="text" size="6" maxlength="6" name="59_total_proc">
             <br>
-            <label for="1_registro_ans">60 - Total de Taxas Diversas e Aluguéis</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="60_total_tax">60 - Total de Taxas Diversas e Aluguéis</label>
+            <input type="text" size="6" maxlength="6" name="60_total_tax">
             <br>
-            <label for="1_registro_ans">61 - Total de Materiais</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="61_total_material">61 - Total de Materiais</label>
+            <input type="text" size="6" maxlength="6" name="61_total_material">
             <br>
-            <label for="1_registro_ans">62 - Total de OPME</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="62_total_opme">62 - Total de OPME</label>
+            <input type="text" size="6" maxlength="6" name="62_total_opme">
             <br>
-            <label for="1_registro_ans">63 - Total de Medicamentos</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="63_total_medicamentos">63 - Total de Medicamentos</label>
+            <input type="text" size="6" maxlength="6" name="63_total_medicamentos">
             <br>
-            <label for="1_registro_ans">64 - Total Gases Medicinais</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="64_total_gases_med">64 - Total Gases Medicinais</label>
+            <input type="text" size="6" maxlength="6" name="64_total_gases_med">
             <br>
-            <label for="1_registro_ans">65 - Total Geral</label>
-            <input type="text" size="6" maxlength="" name="1_registro_ans">
+            <label for="65_total_geral">65 - Total Geral</label>
+            <input type="text" size="6" maxlength="6" name="65_total_geral">
         </fieldset>
         <br>
         <fieldset>
@@ -376,6 +376,7 @@ $seqImportacao = null;*/
             </p>
         </fieldset>
         <br>
+        <input type="submit" value="Enviar">
 
     </form>
 </div>
