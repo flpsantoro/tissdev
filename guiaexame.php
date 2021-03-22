@@ -8,6 +8,146 @@ $_SESSION['nrLote'] = '-';
 $dados = null;
 $nrGuiaPrestador = null;
 $seqImportacao = null;*/
+$campos = array(
+    '1_registro_ans' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '2_nr_guia_prestador' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '3_nr_guia_principal' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '4_dt_autorizacao' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '5_senha' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '6_dt_val_senha' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '7_nr_guia_operadora' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '8_nr_carteira' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '10_nome' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '11_cartao_nac_saude' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '12_atend_rn' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '13_cd_opr' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '14_nm_contratado' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '15_nm_prof_sol' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '16_conselho_prof' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '17_nr_conselho' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '18_uf' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '19_cd_cbo' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '20_assinatura_sol' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '21_carater_atend' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '22_dt_atend' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '23_indicacao_clinica' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '24_tabela_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '24_tabela_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '24_tabela_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '24_tabela_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '24_tabela_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '25_cd_proc_item_assist_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '25_cd_proc_item_assist_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '25_cd_proc_item_assist_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '25_cd_proc_item_assist_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '25_cd_proc_item_assist_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '26_descricao_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '26_descricao_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '26_descricao_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '26_descricao_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '26_descricao_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '27_qtde_sol_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '27_qtde_sol_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '27_qtde_sol_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '27_qtde_sol_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '27_qtde_sol_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '28_qtde_autorizada_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '28_qtde_autorizada_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '28_qtde_autorizada_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '28_qtde_autorizada_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '28_qtde_autorizada_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '29_cd_opr' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '30_nm_contratado' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '31_cd_cnes' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '32_tp_atendimento' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '33_indic_acidente' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '34_tp_consulta' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '35_motivo_encerramento_atend' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '36_data_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '36_data_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '36_data_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '36_data_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '36_data_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '37_hora_inicial_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '37_hora_inicial_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '37_hora_inicial_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '37_hora_inicial_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '37_hora_inicial_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '38_hora_final_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '38_hora_final_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '38_hora_final_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '38_hora_final_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '38_hora_final_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '39_tabela_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '39_tabela_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '39_tabela_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '39_tabela_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '39_tabela_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '40_cd_proc_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '40_cd_proc_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '40_cd_proc_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '40_cd_proc_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '40_cd_proc_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '41_descricao_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '41_descricao_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '41_descricao_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '41_descricao_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '41_descricao_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '42_qtde_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '42_qtde_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '42_qtde_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '42_qtde_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '42_qtde_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '43_via_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '43_via_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '43_via_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '43_via_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '43_via_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '44_tec_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '44_tec_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '44_tec_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '44_tec_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '44_tec_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '45_fator_red_acresc_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '45_fator_red_acresc_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '45_fator_red_acresc_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '45_fator_red_acresc_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '45_fator_red_acresc_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '46_valor_uni_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '46_valor_uni_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '46_valor_uni_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '46_valor_uni_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '46_valor_uni_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '47_valor_total_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '47_valor_total_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '47_valor_total_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '47_valor_total_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '47_valor_total_5' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '48_seq_ref_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '48_seq_ref_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '48_seq_ref_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '48_seq_ref_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '49_grau_part_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '49_grau_part_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '49_grau_part_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '49_grau_part_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '50_cd_opr_cpf_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '50_cd_opr_cpf_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '50_cd_opr_cpf_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '50_cd_opr_cpf_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '51_nm_prof_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '51_nm_prof_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '51_nm_prof_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '51_nm_prof_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '52_cons_prof_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '52_cons_prof_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '52_cons_prof_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '52_cons_prof_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '53_nr_conselho_1' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '53_nr_conselho_2' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '53_nr_conselho_3' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+    '53_nr_conselho_4' => isset($_POST['1_registro_ans']) ? $_POST['1_registro_ans'] : null,
+)
 ?>
 <div>
     <form id="guiaexame" method="post">
@@ -238,11 +378,11 @@ $seqImportacao = null;*/
             </ol>
             <label for="45_fator_red_acresc">45 - Fator Red / Acrésc</label>
             <ol>
-                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc"></li>
-                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc"></li>
-                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc"></li>
-                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc"></li>
-                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc"></li>
+                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc_1"></li>
+                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc_2"></li>
+                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc_3"></li>
+                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc_4"></li>
+                <li><input type="number" size="4" min=0 max="9.99" step=0.01 name="45_fator_red_acresc_5"></li>
             </ol>
             <label for="46_valor_uni">46 - Valor Unitário</label>
             <ol>
@@ -283,7 +423,7 @@ $seqImportacao = null;*/
                 <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_1"></li>
                 <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_2"></li>
                 <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_3"></li>
-                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_3"></li>
+                <li><input type="text" size="14" maxlength="14" name="50_cd_opr_cpf_4"></li>
             </ul>
             <label for="51_nm_prof">51 - Nome do profissional</label>
             <ul>
